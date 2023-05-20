@@ -1,8 +1,6 @@
-# elfmsg
+# elfmsg [![Apache-2.0](https://img.shields.io/hexpm/l/plug)](https://github.com/DuskyElf/elfmsg/blob/main/LICENSE) [![planning](https://img.shields.io/badge/progress-planning-orange)]()
 
 Open, end-to-end encrypted messenger app
-[![Apache-2.0](https://img.shields.io/hexpm/l/plug)](https://github.com/DuskyElf/elfmsg/blob/main/LICENSE)
-[![planning](https://img.shields.io/badge/progress-planning-orange)]()
 
 ## Plans
 - A web app, with [React-ts](https://www.typescriptlang.org/docs/handbook/react.html) as frontend and [Rocket.rs](https://rocket.rs/) as backend.

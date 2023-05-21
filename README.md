@@ -48,7 +48,6 @@ See [CONTRIBUTING.md](https://github.com/DuskyElf/elfmsg/blob/main/CONTRIBUTING.
 
 Please adhere to this project's [code of conduct](https://github.com/DuskyElf/elfmsg/blob/main/CODE_OF_CONDUCT.md).
 
-
 ## Authors
 
-- [@DuskyElf](https://github.com/DuskyElf)
+Check [Contributors](https://github.com/DuskyElf/elfmsg/graphs/contributors)

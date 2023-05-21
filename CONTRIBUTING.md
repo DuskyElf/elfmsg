@@ -1,18 +1,24 @@
-# Contributing
+# Contributing to elfmsg
 
-Thank you for your interest in contributing to elfmsg!
+Thank you for your interest in contributing to elfmsg! We appreciate your willingness to help make this project even better.
 
 ## Ways to contribute
-You could contribute to different parts of the project, i.e., project overview, project design, frontend design, and backend API. We appreciate each and every contribution.
-If you have any questions, please feel free to ask them in [Discussions](https://github.com/DuskyElf/elfmsg/discussions/6).
 
-### Contributing ideas:
-The easiest way to start contributing is by sharing ideas. You could discuss your ideas in [Discussions](https://github.com/DuskyElf/elfmsg/discussions).
-or you could also start a
-[feature request issue](https://github.com/DuskyElf/elfmsg/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=) for a new feature request.
+There are many ways to contribute to elfmsg. You can contribute to the project overview, project design, frontend design, backend API, or documentation. We welcome all contributions, big or small.
 
-### Contributing in code:
-Check [open issues](https://github.com/DuskyElf/elfmsg/issues) to contribute code; issues labelled as `good first issue` are generally easy to start from.
-All workable issues have their own `branch` associated with them. Just leave a comment stating that you are working on the issue, and you're good to go.
-Fork the repo, checkout the issue branch, make changes, and create a pull request to that issue branch.
-Then your pull request would be reviewed by the maintainers and merged after approval.
+## Contributing ideas
+
+One of the easiest ways to contribute is by sharing your ideas. You can do this in the Discussions forum. If you have a specific feature request, you can also create an issue for it.
+
+## Contributing code
+
+If you're interested in contributing code, you can check out the open issues. Issues labeled as "good first issue" are a great place to start. All issues have their own branch associated with them. To contribute, simply leave a comment on the issue stating that you're working on it. Then, fork the repository, checkout the issue branch, make your changes, and create a pull request. The maintainers will review your pull request and merge it once it's approved.
+
+## Here are some additional tips for contributing to elfmsg:
+
+- Be respectful and helpful to others.
+- Follow the project's coding style guide.
+- Test your changes before submitting them.
+- Be patient. It may take some time for your contributions to be merged.
+
+We appreciate your willingness to contribute to elfmsg!

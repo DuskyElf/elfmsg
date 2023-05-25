@@ -19,7 +19,6 @@ async fn rocket() -> _ {
     let db_url = std::env::var("DATABASE_URL").expect("DATABASE_URL must be set");
 
     let db_pool: DbPool = sqlx::postgres::PgPool::connect(&db_url).await.unwrap();
-    sqlx::migrate!("./migrations").run(&db_pool).await.unwrap();
 
     rocket::build()
         .manage(db_pool)

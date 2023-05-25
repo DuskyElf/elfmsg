@@ -23,5 +23,5 @@ async fn rocket() -> _ {
 
     rocket::build()
         .manage(db_pool)
-        .mount("/", routes![index, users])
+        .mount("/", routes![index])
 }

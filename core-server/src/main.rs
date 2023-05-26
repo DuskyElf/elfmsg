@@ -1,6 +1,5 @@
 #[macro_use] extern crate rocket;
 
-use rocket::State;
 use dotenv::dotenv;
 use rocket::serde::json;
 
@@ -19,8 +18,10 @@ async fn rocket() -> _ {
     let db_url = std::env::var("DATABASE_URL").expect("DATABASE_URL must be set");
 
     let db_pool: DbPool = sqlx::postgres::PgPool::connect(&db_url).await.unwrap();
+    sqlx::migrate!("./migrations").run(&db_pool).await.expect("DATABASE Error");
 
     rocket::build()
         .manage(db_pool)
         .mount("/", routes![index])
+        .mount("/auth", auth::routes())
 }

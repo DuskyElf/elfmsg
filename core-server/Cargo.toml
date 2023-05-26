@@ -7,6 +7,8 @@ edition = "2021"
 
 [dependencies]
 rocket = { version = "=0.5.0-rc.3", features = ["json"] } 
+serde = { version = "1.0", features = ["derive"] }
 tokio = { version = "1.0", features = ["full"] }
-sqlx = { version = "0.6", features = ["postgres", "runtime-tokio-rustls"] }
+sqlx = { version = "0.6", features = ["postgres", "runtime-tokio-rustls", "uuid"] }
 dotenv = "0.15.0"
+bcrypt = "0.14.0"

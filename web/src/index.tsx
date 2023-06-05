@@ -1,6 +1,8 @@
 import ReactDOM from 'react-dom/client';
 import * as rr from 'react-router-dom';
 
+import "./styles.css";
+
 import AuthRouter from './auth/auth';
 
 const router = rr.createBrowserRouter(

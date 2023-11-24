@@ -4,7 +4,7 @@ Open, end-to-end encrypted messenger app
 
 ## Plans
 
-- A web app, with [React-ts](https://www.typescriptlang.org/docs/handbook/react.html) as frontend and [Rocket.rs](https://rocket.rs/) as backend.
+- A web app, with Vanilla [Typescript](https://www.typescriptlang.org/) as frontend for web and [Axum](https://github.com/tokio-rs/axum) as backend.
 - Flexible Server, ie. Users could host the server themselves.
 - End-to-end encryption, ie. Server won't have control over messages.
 - Switchable encryption algorithms, for using [Quantum Safe Encrypting algorithms](https://en.wikipedia.org/wiki/NIST_Post-Quantum_Cryptography_Standardization).

@@ -18,3 +18,4 @@ sqlx = { version = "0.7", features = ["postgres", "runtime-tokio-rustls"] }
 toml = "0.8"
 serde = "1.0"
 tracing = "0.1"
+tracing-subscriber = "0.3"

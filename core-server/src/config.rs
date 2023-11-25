@@ -4,6 +4,7 @@ use std::{
 };
 
 use serde::Deserialize;
+use tracing::{error, warn};
 
 pub struct ServerConfig {
     pub socket_addr: SocketAddr,
@@ -14,8 +15,8 @@ impl ServerConfig {
         let config_toml = fs::read_to_string("elfmsg.toml").unwrap_or("".to_string());
 
         let config: Config = toml::from_str(&config_toml).unwrap_or_else(|err| {
-            eprintln!("ConfigError: {}", err);
-            eprintln!("Fallback to default config");
+            error!("ConfigError: {}", err);
+            warn!("Falling back to default config");
             Default::default()
         });
 

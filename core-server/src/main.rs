@@ -1,4 +1,4 @@
-use axum::{self, routing};
+use axum;
 use elfmsg::*;
 use tracing::info;
 
@@ -7,7 +7,7 @@ async fn main() -> Result<(), ()> {
     tracing_subscriber::fmt::init();
     let conf = ServerConfig::get();
 
-    let app = axum::Router::new().route("/", routing::get(hello_world));
+    let app = axum::Router::new().nest("/api", api::router());
 
     info!("Starting server on ServerAddr: {}", conf.socket_addr);
 
@@ -20,8 +20,4 @@ async fn main() -> Result<(), ()> {
         })?;
 
     Ok(())
-}
-
-async fn hello_world() -> &'static str {
-    "Hello world"
 }
